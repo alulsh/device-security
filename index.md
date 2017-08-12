@@ -109,7 +109,7 @@ Mapbox
 * Ask to join wifi networks (both laptop and phone) - don't connect automatically to unknown networks
 * Remove old wifi networks after using, e.g. `United_Wifi` and `Starbucks`
 * Don't connect to open (password-less) wifi networks
-* These are unencrypted and people can sniff traffi
+* These are unencrypted and people can sniff traffic
 * If you must, then use a reputable VPN service (including on `United_Wifi`)
 
 ---
@@ -135,11 +135,11 @@ Mapbox
 
 * Some people browse the internet on their phones more than on a traditional computer
 * iPhone
-  * [Firefox Focus](https://itunes.apple.com/us/app/firefox-focus-the-privacy-browser/id1055677337?mt=8) most privacy minded web browser for iPhone
+  * [Firefox Focus](https://itunes.apple.com/us/app/firefox-focus-the-privacy-browser/id1055677337?mt=8) - best option for privacy
   * Install content blockers like [Ka-Block!](https://itunes.apple.com/us/app/ka-block-block-ads-tracking-scripts/id1037173557?mt=8) for mobile Safari
 * Android
   * Installed [uBlock origin](https://addons.mozilla.org/en-US/android/addon/ublock-origin/) Firefox add-on
-* Avoid using mobile Chrome on both iPhone and Android :(
+* Avoid using mobile Chrome on both iPhone and Android :( no content blockers
 
 ---
 
