@@ -1,0 +1,14 @@
+{
+  "name": "device-security",
+  "version": "1.0.0",
+  "description": "A short presentation on laptop and phone security.",
+  "main": "big.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-presentation": "^3.2.0"
+  }
+}

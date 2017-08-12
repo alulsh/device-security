@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+  </style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='light'>
+  <div><h1 id="laptop-phone-security">Laptop &amp; Phone Security</h1>
+<h2 id="digital-security-training">Digital Security Training</h2>
+<p>August 12th, 2017</p>
+<p>Georgetown Law School</p>
+</div>
+<div><h1 id="alexandra-ulsh">Alexandra Ulsh</h1>
+<p>Information Security Engineer</p>
+<p>Mapbox</p>
+<p>@AlexUlsh</p>
+</div>
+<div><h1 id="threat-model">Threat model</h1>
+<ul>
+<li>Who&#39;s trying to hack you?</li>
+<li>Who and what are you worried about?</li>
+<li>You may need additional security measures than what this presentation covers.</li>
+</ul>
+</div>
+<div><h1 id="laptops-passwords">Laptops - Passwords</h1>
+<ul>
+<li>Use a password</li>
+<li>Use a strong, complex password <strong>that you can easily remember</strong></li>
+<li>Sleep after 5 minutes of inactivity and require a password on wake</li>
+</ul>
+</div>
+<div><h1 id="phones-passcodes">Phones - Passcodes</h1>
+<ul>
+<li>A passcode is a type of password - use one!</li>
+<li>Use a long one - 12+ characters</li>
+<li>Alphanumeric &gt; numbers only</li>
+<li>Strike a balance between usability and security</li>
+<li>Require a passcode immediately after sleep</li>
+<li>Android - don&#39;t use common lock patterns (e.g. letter M or S)</li>
+<li>iPhone - Enable erase data after 10 bad passcode attempts (take good backups!)</li>
+</ul>
+</div>
+<div><h1 id="biometrics">Biometrics</h1>
+<ul>
+<li>Touch ID? Depends on your threat model</li>
+<li>Probably safe for the &quot;average&quot; person</li>
+<li>If Touch ID allows you to use a stricter passcode, then may be worth it</li>
+<li>Similar logic for iris scanner unlock on Android devices</li>
+</ul>
+</div>
+<div><h1 id="physical-security">Physical security</h1>
+<ul>
+<li>Privacy screens for laptops when traveling or at coffee shops</li>
+<li>Don&#39;t leave your laptop or phone unattended</li>
+<li>Use a webcam cover or cover with tape</li>
+<li>Always lock your computer, even at work</li>
+</ul>
+</div>
+<div><h1 id="device-tracking">Device tracking</h1>
+<ul>
+<li>Enable Find My Mac, Find My iPhone, or Android Device Manager<ul>
+<li>Extra important to have 2FA on iCloud and Google accounts</li>
+</ul>
+</li>
+<li>These allow for remote device wiping in case lost or stolen</li>
+<li>Peace of mind - locate device if lost</li>
+<li>Enabling carries privacy trade offs though (threat model)</li>
+</ul>
+</div>
+<div><h1 id="software-updates">Software updates</h1>
+<ul>
+<li>Update your operating system frequently<ul>
+<li>Mac and iOS App Store = red numbers</li>
+<li>Windows Update = yellow warnings</li>
+<li>Android updates</li>
+</ul>
+</li>
+<li>Update your apps frequently<ul>
+<li>Mac and iOS App Store</li>
+<li>Google Play store</li>
+<li>Automatically check for application updates</li>
+</ul>
+</li>
+</ul>
+</div>
+<div><h1 id="laptop-user-accounts">Laptop User Accounts</h1>
+<ul>
+<li>Disable Guest account (if enabled)</li>
+<li>Don&#39;t use Apple ID or Microsoft account to login, use a local user account</li>
+<li>Windows - depending on your threat model, Microsoft login <em>may</em> be worth it for free device encryption and Find My Device features.</li>
+<li>Windows - Don&#39;t disable User Access Control (UAC) (enabled by default).</li>
+</ul>
+</div>
+<div><h1 id="firewalls">Firewalls</h1>
+<ul>
+<li>Prevent attackers from connecting to your computer or installing malware that exfiltrates data from your computer</li>
+<li>Mac - enable firewall and stealth mode in network settings</li>
+<li>Windows - enable firewall in Windows Defender</li>
+</ul>
+</div>
+<div><h1 id="wifi-security">Wifi security</h1>
+<ul>
+<li>Ask to join wifi networks (both laptop and phone) - don&#39;t connect automatically to unknown networks</li>
+<li>Remove old wifi networks after using, e.g. <code>United_Wifi</code> and <code>Starbucks</code></li>
+<li>Don&#39;t connect to open (password-less) wifi networks</li>
+<li>These are unencrypted and people can sniff traffi</li>
+<li>If you must, then use a reputable VPN service (including on <code>United_Wifi</code>)</li>
+</ul>
+</div>
+<div><h1 id="other-network-security">Other network security</h1>
+<ul>
+<li>If you don&#39;t need Bluetooth, disable it</li>
+<li>Disable Airdrop, only enable briefly when you need it</li>
+</ul>
+</div>
+<div><h1 id="laptop-browser-security">Laptop browser security</h1>
+<ul>
+<li>Frequently update all of your browsers</li>
+<li>Browser vulnerabilities are a common way to get hacked</li>
+<li>Chrome and Firefox will automatically update by default</li>
+<li>Make sure to <code>command</code> + <code>Q</code> (fully quit) on a Mac to make sure they update</li>
+<li>Standard security extensions: HTTPS Everywhere, uBlock Origin, Privacy Badger (note: breaks websites)</li>
+</ul>
+</div>
+<div><h1 id="secure-mobile-browsing">Secure mobile browsing</h1>
+<ul>
+<li>Some people browse the internet on their phones more than on a traditional computer</li>
+<li>iPhone<ul>
+<li><a href="https://itunes.apple.com/us/app/firefox-focus-the-privacy-browser/id1055677337?mt=8">Firefox Focus</a> most privacy minded web browser for iPhone</li>
+<li>Install content blockers like <a href="https://itunes.apple.com/us/app/ka-block-block-ads-tracking-scripts/id1037173557?mt=8">Ka-Block!</a> for mobile Safari</li>
+</ul>
+</li>
+<li>Android<ul>
+<li>Installed <a href="https://addons.mozilla.org/en-US/android/addon/ublock-origin/">uBlock origin</a> Firefox add-on</li>
+</ul>
+</li>
+<li>Avoid using mobile Chrome on both iPhone and Android :(</li>
+</ul>
+</div>
+<div><h1 id="encryption">Encryption</h1>
+<ul>
+<li>Prevents reading files (including cookies for login sessions) of a stolen or lost device</li>
+<li>Mac = FileVault<ul>
+<li>Don&#39;t store recovery key with Apple or with iCloud account - <strong>remember your computer login password instead</strong></li>
+</ul>
+</li>
+<li>Windows = BitLocker<ul>
+<li>Requires paid Windows Pro and Trusted Platform Module (TPM) hardware</li>
+</ul>
+</li>
+<li>iPhones encrypted by default :)</li>
+<li>You should enable encryption on your Android phone</li>
+</ul>
+</div>
+<div><h1 id="backups">Backups</h1>
+<ul>
+<li>Have multiple forms of backups (depends on threat model) for all of your devices<ul>
+<li>Cloud and local</li>
+<li>Or multiple local</li>
+</ul>
+</li>
+<li>Encrypt your backups, e.g. iTunes iPhone backups</li>
+</ul>
+</div>
+<div><h1 id="file-extensions">File extensions</h1>
+<ul>
+<li>Laptops - Enable seeing file extensions on files (<code>.jpg</code>,<code>.docx</code>, <code>.html</code>)</li>
+<li>Disabled by default on both Mac and Windows :(</li>
+<li>Prevents phishing attacks and opening malicious downloads</li>
+<li><code>cutepuppy.gif</code> could really be <code>cutepuppy.gif.exe</code></li>
+</ul>
+</div>
+<div><h1 id="app-security">App security</h1>
+<ul>
+<li>Only install applications or programs from trusted developers</li>
+<li>View the app developer website - do they seem reputable?</li>
+<li>Evaluate permissions the app requires - does a game really need access to your contacts?</li>
+<li>Mac Gatekeeper - keep default setting of apps from Mac App store and identified developers</li>
+</ul>
+</div>
+<div><h1 id="malware-protection">Malware protection</h1>
+<ul>
+<li>Windows = Free Windows Defender from Microsoft</li>
+<li>Macs? Lower malware risk than Windows, but getting worse every year</li>
+<li>No anti-virus software I can confidentally recommend for Mac</li>
+<li>Check out free Mac anti-malware tools from <a href="https://objective-see.com/products.html">Objective-See</a></li>
+<li>Phones - only download reputable apps from App Store and Google Play store</li>
+</ul>
+</div>
+<div><h1 id="resources">Resources</h1>
+<ul>
+<li>Personal security checklist<ul>
+<li><a href="https://github.com/alulsh/personal-security-checklist">https://github.com/alulsh/personal-security-checklist</a></li>
+</ul>
+</li>
+<li>Intro to Security for Developers<ul>
+<li><a href="https://github.com/alulsh/intro-to-security-for-developers">https://github.com/alulsh/intro-to-security-for-developers</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div><h1 id="questions-">Questions?</h1>
+<ul>
+<li>Laptop and phone security workshop today</li>
+<li>@AlexUlsh on Twitter</li>
+<li>alexandra.ulsh@gmail.com</li>
+</ul>
+</div>
+</body>
+</html>
