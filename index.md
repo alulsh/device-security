@@ -194,6 +194,8 @@ Mapbox
 
 # Resources
 
+* This presentation!
+  * https://github.com/alulsh/device-security
 * Personal security checklist
   * https://github.com/alulsh/personal-security-checklist
 * Intro to Security for Developers
