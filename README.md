@@ -1,3 +1,5 @@
+# Archived
+I no longer maintain this repository as it was for a one time presentation on August 12th, 2017.
 # Device Security Presentation
 
 A 10 minute presentation on laptop and phone (device) security for a [digital security workshop](https://www.meetup.com/DCLegalHackers/events/239489125/) for DC Legal Hackers/Georgetown Law/ACLU DC on Saturday, August 12th 2017 at Georgetown Law in Washington, D.C.
