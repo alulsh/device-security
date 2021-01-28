@@ -1,14 +1,11 @@
 {
-  "name": "device-security",
-  "version": "1.0.0",
-  "description": "A short presentation on laptop and phone security.",
-  "main": "big.js",
+  "description": "A short presentation on laptop and phone security for DC Legal Hackers on August 12th, 2017",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "big-presentation-serve"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "big-presentation": "^3.2.0"
+  "author": "Alexandra Ulsh",
+  "license": "MIT",
+  "devDependencies": {
+    "big-presentation": "^3.3.0"
   }
 }
