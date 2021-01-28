@@ -20,8 +20,7 @@ To view the slides locally:
 git clone git@github.com:alulsh/device-security.git
 cd device-security
 npm install
-npm install -g big-presentation
-big-presentation-serve
+npm start
 ```
 
 ## Making changes to the slides
